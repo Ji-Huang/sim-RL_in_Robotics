@@ -1,0 +1,14 @@
+train  = ../dataset/box_real/train.txt
+valid  = ../dataset/box_real/test.txt
+backup = backup/box
+mesh = ../dataset/box_real/box.ply
+name = box
+diam = 0.4123
+gpus = 0
+max_ground_truth_num = 1
+width = 1920
+height = 1080
+fx = 919.162
+fy = 919.322
+u0 = 956.68
+v0 = 551.21

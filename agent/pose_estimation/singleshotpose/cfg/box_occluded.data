@@ -1,0 +1,14 @@
+train  = ../dataset/box_occluded/train.txt
+valid  = ../dataset/box_occluded/test.txt
+backup = backup/box
+mesh = ../dataset/box_occluded/box.ply
+name = box
+diam = 0.4123
+gpus = 0
+max_ground_truth_num = 1
+width = 640
+height = 480
+fx = 580.5
+fy = 580.5
+u0 = 320.0
+v0 = 240.0

@@ -1,0 +1,14 @@
+train  = ../dataset/box_series/train.txt
+valid  = ../dataset/box_series/test.txt
+backup = backup/box
+mesh = /home/smlr/agent/pose_estimation/dataset/box_series/box.ply
+name = box
+diam = 0.4123
+gpus = 0
+max_ground_truth_num = 1
+width = 1920
+height = 1080
+fx = 1305.0
+fy = 1305.0
+u0 = 960.0
+v0 = 537.0
