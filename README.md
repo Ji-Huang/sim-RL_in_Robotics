@@ -1,8 +1,8 @@
-# pushing
+# Simulation-based RL in Robotics - Ji HUANG, Muhammad Reza Ar RAZI, Yankun WEI
 
 ## Project Description
 
-This project focuses on developing and evaluating a behavior cloning policy for a robotic hand tasked with pushing a box to a specified target. Leveraging a 2D action space, the project simplifies complex manipulation tasks into manageable actions. Our approach involves training a Behavior Cloning (BC) model based on demonstrations from a hardcoded expert policy, aiming to achieve high success rates in pushing tasks within a simulated environment. This README provides instructions for setting up the project environment, running the simulation, and executing the BC policy.
+This project focuses on developing and evaluating a policy for a robotic hand tasked with pushing a box to a specified target. Our approach involves training a TD3 (Twin Delayed Deep Deterministic Policy Gradient) + BC (Behavior Cloning) model based on demonstrations from a hardcoded expert policy, aiming to achieve high success rates in pushing tasks within a simulated environment. We also trained a vision model using singleshotpose to estimate the box pose based on photos. This README provides instructions for setting up the project environment, running the simulation, and executing the TD3+BC policy with or without the vision model.
 
 ## Demonstrations
 
@@ -12,13 +12,13 @@ Click on the image below to watch the expert policy demonstration video:
 
 [![Watch the expert policy demonstration](https://img.youtube.com/vi/7yzIU9E_nwc/0.jpg)](https://youtu.be/7yzIU9E_nwc)
 
-### BC-Policy Demonstration
+### BC-Policy Demonstration without the vision model
 
 Click on the image below to watch the BC-policy demonstration video:
 
 [![Watch the BC-policy demonstration](https://img.youtube.com/vi/6sxFLG1gamM/0.jpg)](https://youtu.be/6sxFLG1gamM)
 
-### BC-Policy Demonstration
+### BC-Policy Demonstration with the vision model
 
 Click on the image below to watch the BC-policy with vision based box pose estimation demonstration video:
 
@@ -63,7 +63,7 @@ cd smlr
 python3 agent/main.py
 ```
 
-## Quickstart: from 0 to a trained BC policy.
+## Quickstart: from 0 to a trained TD3+BC policy.
 
 **Step 1**: Do the installation steps in  [Installation](#Installation).
 
