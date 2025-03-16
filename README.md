@@ -1,4 +1,4 @@
-# Simulation-based RL in Robotics - Ji HUANG, Muhammad Reza Ar RAZI, Yankun WEI
+# Simulation-based RL in Robotics
 
 ## Project Description
 
@@ -12,13 +12,13 @@ Click on the image below to watch the expert policy demonstration video:
 
 [![Watch the expert policy demonstration](https://img.youtube.com/vi/7yzIU9E_nwc/0.jpg)](https://youtu.be/7yzIU9E_nwc)
 
-### BC-Policy Demonstration without the vision model
+### TD3+BC Policy Demonstration without the vision model
 
 Click on the image below to watch the BC-policy demonstration video:
 
 [![Watch the BC-policy demonstration](https://img.youtube.com/vi/6sxFLG1gamM/0.jpg)](https://youtu.be/6sxFLG1gamM)
 
-### BC-Policy Demonstration with the vision model
+### TD3+BC Policy Demonstration with the vision model
 
 Click on the image below to watch the BC-policy with vision based box pose estimation demonstration video:
 
@@ -36,7 +36,6 @@ First, clone this project repository:
 git clone https://github.com/Ji-Huang/sim-RL_in_Robotics.git
 ```
 
-### Clone the Repository
 Next, pull the Docker image specifically prepared for this project:
 ```bash
 docker image pull rezaarrazi/smlr_py38_new
@@ -137,3 +136,9 @@ Inside the Docker container, initiate the evaluation by running:
 ```bash
 python3 agent/main.py
 ```
+
+## Acknowledgements.
+The project members include: Ji HUANG, Muhammad Reza Ar RAZI and Yankun WEI.
+
+The experiments are based on [VTPRL](https://github.com/tum-i6/VTPRL.git)
+
