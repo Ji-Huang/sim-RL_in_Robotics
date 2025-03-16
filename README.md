@@ -30,10 +30,10 @@ Follow these steps to set up your environment and run the project:
 
 ### Clone the Repository
 
-First, clone the project repository from GitLab:
+First, clone this project repository:
 
 ```bash
-git clone https://gitlab.lrz.de/smlr_ws2324/g3/pushing.git --single-branch --depth 1 -b main
+git clone https://github.com/Ji-Huang/sim-RL_in_Robotics.git
 ```
 
 ### Clone the Repository
